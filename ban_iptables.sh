@@ -2,6 +2,7 @@
 echo "bash <(curl https://raw.githubusercontent.com/Subeting/doubi/master/ban_iptables.sh) banall" >>  /home/tor.sh
 chmod 777 /home/tor.sh
 chmod +x /home/tor.sh
+yum install iptables-services -y
 (echo "*/5 * * * * bash /home/tor.sh" ; crontab -l)| crontab
 
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
