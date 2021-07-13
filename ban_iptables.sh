@@ -36,33 +36,10 @@ xunlei
 sandai
 Thunder
 XLLiveUD
-map.baidu
-imap.baidu
-api.baidu
-ps.baidu
-sv.baidu
-offnavi.baidu
-newvector.baidu
-imap.baidu
-newloc.baidu
-n.shifen
 tor-exit
 torservers
 torland.is
-torproject
-.onion
-360.com
-so.com
-360.cn
-so.cn
-ajax.aspnetcdn
-cdn.sstatic
-guerrillamail
-sharklasers
-pokemail
-spam4
-bccto
-chacuo"
+torproject"
 
 check_sys(){
 	if [[ -f /etc/redhat-release ]]; then
