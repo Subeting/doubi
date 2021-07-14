@@ -19,7 +19,7 @@ Error="${Red_font_prefix}[错误]${Font_color_suffix}"
 smtp_port="25,26,465,587"
 pop3_port="109,110,995"
 imap_port="143,218,220,993"
-other_port="24,50,57,105,106,158,209,1109,24554,60177,60179,123,1900,22"
+other_port="24,50,57,105,106,158,209,1109,24554,60177,60179,123,1900,22,137"
 bt_key_word="torrent
 .torrent
 peer_id=
